@@ -1,0 +1,37 @@
+Porceso de limpieza de Datos
+
+Dataset propiedades
+
+!1-Describir el dataset
+primera parte donde podemos apreciar las dimensiones del dataset con df.shape(), 
+como tambien que tipo de columnas contiene con df.head(), 
+para tener una apreciacion mas clara y definir como vamos a proceder.
+
+!2-Limpieza General vs Limpieza Especial
+siendo la primera vez haciendo un trabajo de este tipo nos vimos con el problema de como encarar el trabajo
+entonces decidimos en separarlo en dos etapas:
+la primera una limpieza general enfocada a partir y desechar el dataset, 
+donde nos enfocamos mas en los grupos de data sucia mas grandes 
+(valores faltantes no imputables, variables que no aportan al modelo, valores duplicados)
+
+La segunda es una limpieza especial/especifica que requiere hacer observaciones dentro de de variables mas pequeñas que tienen distintos tipos de errores.
+ Basicamente identificar y eliminar outliers
+
+----------------------------------------------------------------
+recussion feature elimination
+poner tanot media como mediana para imputar
+armando dos columnas nuevas
+
+----------------------------------------------------------------
+!recortar mas outliers
+
+mascara booleana
+----------------------------------------------------------------
+geonames_id base de datos ----> imputar localización (lat-lon)
+
+
+hacer regresion lineal
+
+
+(-armar indice de volatilidad por 'zona')
+Density plot
